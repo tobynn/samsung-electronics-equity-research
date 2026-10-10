@@ -1,0 +1,15 @@
+category,metric,period,value,unit,as_of,source,note
+Actual,Revenue,1Q26,133900,KRW bn,2026-04-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_conference_eng.pdf,Consolidated
+Actual,Operating profit,1Q26,57200,KRW bn,2026-04-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_conference_eng.pdf,Consolidated
+Actual,Net profit,1Q26,47200,KRW bn,2026-04-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_conference_eng.pdf,Consolidated
+Actual,Revenue,2Q26,171500,KRW bn,2026-07-30,https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results,Consolidated
+Actual,Operating profit,2Q26,89500,KRW bn,2026-07-30,https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results,Consolidated
+Actual,Net profit,2Q26,71600,KRW bn,2026-07-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf,Consolidated
+Actual,DS revenue,2Q26,127500,KRW bn,2026-07-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf,Segment disclosure
+Actual,DS operating profit,2Q26,89200,KRW bn,2026-07-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf,Segment disclosure
+Actual,Cash,2Q26,189999,KRW bn,2026-07-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf,Financial position
+Actual,Debt,2Q26,22409,KRW bn,2026-07-30,https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf,Financial position
+Preliminary,Revenue,3Q26,195000,KRW bn,2026-10-07,https://www.reuters.com/world/asia-pacific/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/,Preliminary result
+Preliminary,Operating profit,3Q26,107400,KRW bn,2026-10-07,https://www.reuters.com/world/asia-pacific/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/,Preliminary result
+Market,Closing price,2026-10-09,262000,KRW/share,2026-10-09,https://finance.yahoo.com/quote/005930.KS/,Closing price
+Analyst assumption,2027E net cash,2027E,350000,KRW bn,2026-10-10,Analyst assumption,Update after 3Q26 results
