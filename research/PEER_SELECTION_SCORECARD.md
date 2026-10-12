@@ -1,22 +1,46 @@
-# Peer Selection Scorecard
+# Peer Selection Scorecard — Samsung Electronics
 
-## 전사 PER 평균을 사용하지 않는 이유
+## 1. Never use a single company-wide peer average
 
-삼성전자는 메모리 호황이 전사 이익을 좌우하지만, DS 안에서도 메모리·파운드리의 경제성이 다르고 DX·SDC·Harman의 수익 구조도 다릅니다. 여러 회사를 하나의 PER 표본으로 평균내면 메모리 사이클과 비메모리 사업의 정상 이익이 섞입니다.
+Samsung combines memory, foundry, mobile devices, consumer electronics, displays and automotive electronics. Peer assignment is done at segment/product level. A company can be a useful operating benchmark without being an eligible valuation peer.
 
-| 비교 대상 | 사용하는 위치 | 포함 이유 | 전사 PER 제외 이유 |
+| Candidate | Eligible use | Why it is relevant | Why it is not a direct consolidated peer |
 |---|---|---|---|
-| SK하이닉스 | 메모리 SOTP, 메모리 PER | DRAM·HBM, 자체 FAB, CAPEX, 메모리 가격 사이클이 유사 | 메모리 비중과 고객 구성 차이 |
-| Micron | 메모리 SOTP, PER 교차검증 | DRAM·NAND, 자체 FAB, 가격·CAPEX 민감도 | 모바일·가전·파운드리 사업이 없음 |
-| TSMC | 파운드리 SOTP | 첨단공정, 고객 CAPEX, 가동률 비교 | 메모리·세트 사업이 없음 |
-| Apple·Xiaomi | DX 수요 점검 | 스마트폰 프리미엄 수요와 부품비 확인 | 제조·부품 수직계열화 구조가 다름 |
-| LG디스플레이 | SDC 정상화 점검 | OLED 업황과 투자 부담 비교 | 사업 규모와 고객 집중도가 다름 |
+| SK hynix | HBM/server DRAM operating and valuation anchor | DRAM/HBM, own fabs, capex, inventory and memory-cycle exposure | Much higher memory concentration; its earnings duration, product mix and customer mix differ |
+| Micron | DRAM/NAND operating and cycle cross-check | Integrated memory manufacturing, capex, yields, ASP and inventory | Geography, customer mix, product mix, accounting/FX and HBM exposure differ; normalize EPS and cycle stage |
+| TSMC | Foundry process, utilization, capex and customer-conversion benchmark | Pure-play leading-edge foundry with observable node economics | Scale, utilization, external customer mix and margin structure make its multiple unsuitable as an automatic Samsung Foundry multiple |
+| Apple | Premium device demand, mix and ecosystem reference | Premium smartphone demand can influence Samsung component/device economics | Fabless/asset-light ecosystem and software economics differ; not a DX PER peer |
+| Xiaomi | Smartphone volume, pricing and channel reference | Android product mix and competitive price points help frame DX demand | Brand/channel/device economics and manufacturing structure differ; use demand/operating context only |
+| LG Display | OLED utilization, capex and panel-cycle operating reference | Display manufacturing and customer/technology-cycle exposure | Product mix, scale, balance-sheet and customer concentration differ; not a direct SDC valuation plug |
+| Automotive electronics candidates | Harman segment context only until verified | Automotive backlog, content per vehicle and long customer programs | No candidate enters the numeric peer set without matched segment disclosure and dated estimates |
 
-## 직접 비교 기준
+## 2. Role labels and eligibility gates
 
-1. 같은 제품의 가격 결정 방식이 있어야 합니다.
-2. 자체 생산설비와 CAPEX가 이익·현금흐름에 같은 방향으로 작용해야 합니다.
-3. 재고·가동률·ASP 변동이 비슷해야 합니다.
-4. 비교 대상의 사업부 비중이 valuation 대상 사업부와 맞아야 합니다.
+Every observation is labelled `Direct segment peer`, `Operating benchmark`, `Demand proxy`, or `Excluded`. Numeric multiple inclusion requires all of the following:
 
-따라서 메모리·파운드리·DX에는 각기 다른 비교표본을 적용합니다.
+1. Segment exposure and financial denominator can be mapped to the same business.
+2. Positive and usable normalized earnings (or a suitable alternative lens when losses persist).
+3. Same forecast period, currency/ADR treatment, market-price cutoff, and accounting denominator.
+4. Enterprise-to-equity bridge and net cash/debt treatment are reproducible.
+5. Estimates and market data have a named source, retrieval date and update trail.
+6. No major structural break is being treated as a steady-state observation without adjustment.
+
+A failed gate remains visible in the scorecard with the reason; it does not disappear from the analysis. Use a 0–2 qualitative score for product/segment fit, cycle similarity, capex/intensity, profitability/cash conversion, growth duration and data comparability. Scores explain selection; they do not mechanically add/subtract valuation turns.
+
+## 3. Segment-specific metric selection
+
+- HBM/server DRAM/client DRAM/NAND: normalized EV/EBIT ranges by economic bucket; SK hynix and Micron provide context but Samsung's product economics must be built from its own margins, investment and supply.
+- Foundry: scenario EV with explicit utilization, yield, capex and cash burn; TSMC is an operational frontier benchmark, not the fair multiple.
+- DX: cycle-normalized EBIT/EPS; Apple and Xiaomi are demand and mix references only.
+- SDC: normalized OLED earnings and capital returns; LG Display is an operating cycle cross-check only.
+- Harman: automotive electronics normalized earnings/cash conversion; admit numeric peers only when comparable segment data are available.
+
+Do not combine EV/EBIT, EV/EBITDA and PER into one median. Map all values to enterprise value or equity value consistently before aggregation.
+
+## 4. Vintage and normalization rules
+
+Use one market close date for Samsung and peers; record the estimate period (LTM, NTM, FY1, FY2), reporting currency, ADR ratio, share class, diluted shares, net cash/debt date and source. Exclude negative EPS from PER medians. Normalize peak/trough memory earnings to a mid-cycle range and disclose adjustments. For unprofitable foundry periods, PER is not meaningful. Show peer company figures individually with a range and sample count; don't call a one-company benchmark an average.
+
+## 5. Evidence standard for a premium or discount
+
+A segment multiple adjustment requires a measurable mechanism: earnings visibility, cycle duration, customer qualification, product margin, reinvestment need, returns on incremental capital, balance-sheet risk or value capture. “AI exposure”, leadership language or a new product sample alone does not justify a premium. Record evidence, counter-evidence, confidence, scenario effect and the next testable disclosure. Forecast EBIT uplift and multiple uplift must not reward the same improvement twice.

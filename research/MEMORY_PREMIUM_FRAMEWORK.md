@@ -1,27 +1,32 @@
-# 메모리 프리미엄 기준
+# Memory Segment Valuation Framework
 
-## 적용 방식
+## Existing model snapshot
 
-메모리 EBIT 전체에 하나의 프리미엄을 얹지 않습니다. 2027E DS Memory EBIT 25조원을 제품군별 이익 비중으로 나누고, 각 이익에 개별 EV/EBIT를 적용합니다.
+The current 2027E scenario uses memory EBIT of KRW 25tn and the following explicit product allocation. The inputs are analyst assumptions; they are not company-disclosed product-level EBIT or directly observable fair multiples.
 
-| 제품군 | EBIT 비중 | 최종 EV/EBIT | 적용 이유 |
+| Product bucket | EBIT weight | Scenario EV/EBIT | Evidence question before changing the scenario |
 |---|---:|---:|---|
-| HBM | 26% | 9.0x | 고객 인증, 높은 전환비용, 공급 제약, AI 플랫폼 내 비중 |
-| Server DRAM | 34% | 7.0x | 서버 수요와 공급 규율 |
-| Client/mobile DRAM | 22% | 4.5x | 수요 가시성이 짧고 가격 변동성이 큼 |
-| NAND | 14% | 3.0x | 공급 탄력성과 낮은 가격 결정력 |
-| 기타 메모리 | 4% | 2.5x | 보수적인 잔여 이익 처리 |
+| HBM | 26% | 9.0x | Are qualified customers, yields, shipments and realized margins broadening together? |
+| Server DRAM | 34% | 7.0x | Are high-capacity DDR5 mix, contract pricing and disciplined supply durable through a cycle? |
+| Client/mobile DRAM | 22% | 4.5x | Do OEM inventory, sell-through and price realization support earnings beyond restocking? |
+| NAND | 14% | 3.0x | Is eSSD/QLC mix improving returns while supply response and inventory remain controlled? |
+| Other memory | 4% | 2.5x | Is the residual bucket clearly defined and free of double count? |
+| **Weighted memory** | **100%** | **6.23x** | Reconcile to 25tn EBIT and confirm product weights sum to 100%. |
 
-모든 제품군의 출발점은 5.5x입니다. HBM은 이 기준에 고객 인증·공급 제약·이익 지속기간·플랫폼 비중을 더해 +3.5x를 적용합니다. NAND와 기타 메모리는 해당 요인이 약해 할인합니다. 이 방식의 DS Memory 유효 EV/EBIT는 6.2x이며, 전체 EBIT에 기계적으로 6.2x를 넣은 값이 아닙니다.
+## How a product-level range is earned
 
-## 점검 항목
+For each bucket, document evidence across seven dimensions: (1) normalized margin and cash conversion, (2) cycle amplitude and earnings duration, (3) customer qualification and switching cost, (4) supply elasticity/capacity discipline, (5) contract visibility and concentration, (6) incremental ROIC/reinvestment, (7) value capture relative to customer platforms. Score evidence quality as weak/partial/strong with a source date; do not translate scores directly into multiple turns by formula.
 
-1. HBM4와 HBM4E 고객 인증·출하 확대
-2. HBM 및 Server DRAM 이익 비중
-3. 메모리 공급 증설 속도와 재고
-4. NAND ASP·가동률·공급 감산
-5. 파운드리 손익이 DS Memory 프리미엄으로 섞이지 않는지
+Set Bear/Base/Bull multiple ranges only after comparing at least one full cycle of comparable memory economics where data allow. SK hynix and Micron are context points, not automatic calibration: their mix, margins, capex, yields, customer breadth and cycle timing differ. If product-level history is not available, preserve the current values as scenario inputs, widen the valuation range, and label calibration as incomplete.
 
-## 반증 조건
+## Double-count control
 
-HBM 고객 인증이 지연되거나, 공급 확대가 수요보다 빨라 HBM 가격·마진이 약해지면 HBM +3.5x를 낮춥니다. HBM 이익 비중이 낮아지고 범용 메모리·NAND 비중이 커지면 DS Memory 유효 multiple도 함께 낮아집니다.
+Memory EBIT forecast already captures the modeled shipments, ASP, mix, margin and operating leverage. The segment multiple should capture residual differences in risk, duration, capital intensity and cash conversion. An HBM profit-share increase changes the weighted valuation mechanically; it does not warrant another top-level “HBM premium”. Do not raise both EBIT and EV/EBIT for the same qualification/ASP upside without distinct evidence.
+
+## Re-rating and de-rating triggers
+
+**Potential re-rating evidence:** confirmed qualification/volume across customers, stable yields, sustained high-margin shipments, long-duration contracts, cash conversion after capex, and incremental ROIC above cost of capital.
+
+**Potential de-rating evidence:** yield delays, customer concentration, aggressive competing capacity, falling ASP, rising inventories, lower utilization, margin normalization, rising maintenance/growth capex or weak free cash flow despite record EBIT.
+
+The weighted 6.23x is a transparent scenario output, not a precise fair value fact. It must be reconsidered when product weights, cycle-normalized EBIT, market data or evidence changes.

@@ -20,3 +20,16 @@
 - 서버 DRAM·eSSD 가격이 예상보다 빨리 하락하는 경우
 - 파운드리 손실이 2nm 램프 후에도 줄지 않는 경우
 - 메모리 호황 중 CAPEX 증가가 FCF로 전환되지 않는 경우
+
+
+## Business-specific thesis and failure tests
+
+- **HBM:** qualification, yield and customer breadth must convert to shipments, realized margin and cash after packaging/capex. Samples or AI exposure alone do not establish earnings duration.
+- **Server DRAM:** high-capacity mix and contract pricing are tested against inventory, competing supply and bit additions.
+- **Client/mobile DRAM and NAND:** value on normalized cycle earnings; restocking or a temporary supply cut is not terminal profitability.
+- **Foundry/S.LSI:** distinguish customer design wins from volume production. If the segment remains loss-making, use explicit cash burn/capex scenarios rather than PER.
+- **DX / SDC / Harman:** track sell-through and channel inventories, OLED customer/utilization concentration, and automotive backlog conversion/working capital respectively.
+
+## Valuation interpretation
+
+The 9.0x/7.0x/4.5x/3.0x/2.5x memory EV/EBIT inputs are scenario parameters, not empirically proven product fair multiples. A multiple change requires dated evidence about durability, cycle risk, capital intensity, cash conversion or value capture beyond the forecast EBIT itself. The weighted 6.23x result must not receive an additional consolidated HBM premium. The current project is a dated snapshot: keep reported, preliminary, management outlook, consensus and analyst assumptions separately labelled.
