@@ -20,6 +20,8 @@ DCF는 대규모 CAPEX와 운전자본을 확인하고, RIM은 메모리 초과 
 - `research/INVESTMENT_CASE.md`: 투자 논리와 업데이트 조건
 - `research/PEER_SELECTION_SCORECARD.md`: 목적별 피어 선정 기준
 - `report/FINAL_REPORT.md`: GitHub에서 읽는 최종 보고서
+- [`report/Samsung_Electronics_equity_research_report.pdf`](report/Samsung_Electronics_equity_research_report.pdf): 제출용 PDF 보고서
+- `report/Samsung_Electronics_equity_research_report.docx`: PDF 원본 편집 파일
 - `data/processed/2026-10-10_actuals_and_assumptions.csv`: 입력 데이터와 출처
 
 ## 피어 원칙
