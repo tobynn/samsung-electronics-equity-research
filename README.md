@@ -6,7 +6,7 @@
 
 SOTP 기준 가치는 **361,786원**입니다. 메모리 2027E EBIT 25조원을 HBM·서버 DRAM·클라이언트/모바일 DRAM·NAND·기타로 나누고, 각 제품군에 9.0x·7.0x·4.5x·3.0x·2.5x를 적용했습니다. HBM에는 고객 인증, 공급 제약, 플랫폼 내 비중을 반영합니다. NAND와 기타 메모리에는 할인 폭을 크게 둡니다. 이 구분으로 메모리 유효 EV/EBIT은 6.2x가 됩니다.
 
-DCF는 대규모 CAPEX와 운전자본을 확인하고, RIM은 메모리 초과 ROE의 하방을 보여줍니다. `Segment PER`는 HBM·서버 DRAM, 범용 메모리, DX·SDC·Harman, Foundry/S.LSI의 정상화 EPS에 개별 PER를 적용한 교차검증입니다.
+DCF는 대규모 CAPEX와 운전자본을 확인하고, RIM은 메모리 초과 ROE의 하방을 보여줍니다. `Segment PER`는 HBM·서버 DRAM, 범용 메모리, DX·SDC·Harman의 정상화 EPS를 평가합니다. 음수 EPS인 Foundry/S.LSI는 N/M 처리하고 별도 SOTP 시나리오에서 다룹니다.
 
 ## 기준 실적
 
@@ -17,13 +17,14 @@ DCF는 대규모 CAPEX와 운전자본을 확인하고, RIM은 메모리 초과 
 ## 파일 안내
 
 - `model/Samsung_Electronics_equity_research.xlsx`: 실제치, 메모리 프리미엄 빌드, 부문별 SOTP, DCF, RIM, Segment PER, 갱신 점검표
+- `research/ANALYSIS_REVIEW.md`: 약한 논리, 모델 수정, 남은 증거 게이트
 - `research/INVESTMENT_CASE.md`: 투자 논리와 업데이트 조건
 - `research/PEER_SELECTION_SCORECARD.md`: peer 역할·포함 게이트·정규화 원칙
 - `research/MEMORY_PREMIUM_FRAMEWORK.md`: 메모리 제품별 scenario multiple과 증거/반증 게이트
 - `research/COMPANY_SPECIFIC_FRAMEWORK.md`: 사업부별 운영·valuation 드라이버
 - `research/VALUATION_VINTAGE_POLICY.md`: 실적/주가/peer 추정 vintage와 갱신 순서
 - `report/FINAL_REPORT.md`: GitHub에서 읽는 최종 보고서
-- [`report/Samsung_Electronics_equity_research_report.pdf`](report/Samsung_Electronics_equity_research_report.pdf): 기존 제출용 PDF 보고서
+- [`report/Samsung_Electronics_equity_research_report.pdf`](report/Samsung_Electronics_equity_research_report.pdf): 기존 제출용 snapshot (새 계산식과 최신 PER 제외 상태는 `FINAL_REPORT.md`/Excel 참조)
 - [`report/METHODOLOGY_APPENDIX.md`](report/METHODOLOGY_APPENDIX.md): peer 선정·vintage·세그먼트 프리미엄의 상세 보완
 - `report/Samsung_Electronics_equity_research_report.docx`: PDF 원본 편집 파일
 - `data/processed/2026-10-10_actuals_and_assumptions.csv`: 입력 데이터와 출처
@@ -41,7 +42,7 @@ DCF는 대규모 CAPEX와 운전자본을 확인하고, RIM은 메모리 초과 
 
 구체적인 이익풀 분석은 [기업 고유 프레임워크](research/COMPANY_SPECIFIC_FRAMEWORK.md), [peer 포함 게이트](research/PEER_SELECTION_SCORECARD.md), [메모리 가정의 증거 기준](research/MEMORY_PREMIUM_FRAMEWORK.md), [valuation vintage 정책](research/VALUATION_VINTAGE_POLICY.md)를 따른다.
 
-**해석 주의:** 9.0x/7.0x/4.5x/3.0x/2.5x는 현재 메모리 제품별 EV/EBIT 시나리오 입력이다. 공개된 제품별 시장 fair multiple이나 완전한 과거 주기 통계로 추정된 계수가 아니다. 6.23x 가중 배수는 이 입력의 수학적 결과이며, 실적전망에 이미 포함된 HBM 성장을 다시 프리미엄으로 더하지 않는다.
+**해석 주의:** 2027E 순현금 350조원은 분석자 시나리오 입력이며 2Q26 보고치와 연결한 현금 bridge는 아직 없다. 9.0x/7.0x/4.5x/3.0x/2.5x는 현재 메모리 제품별 EV/EBIT 시나리오 입력이다. 공개된 제품별 시장 fair multiple이나 완전한 과거 주기 통계로 추정된 계수가 아니다. 6.23x 가중 배수는 이 입력의 수학적 결과이며, 실적전망에 이미 포함된 HBM 성장을 다시 프리미엄으로 더하지 않는다.
 
 ## 공식 출처
 
@@ -51,3 +52,10 @@ DCF는 대규모 CAPEX와 운전자본을 확인하고, RIM은 메모리 초과 
 - [Samsung 3Q26 preliminary release coverage](https://www.reuters.com/world/asia-pacific/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/)
 
 투자 권유가 아닙니다.
+## Analysis review
+
+See [`research/ANALYSIS_REVIEW.md`](research/ANALYSIS_REVIEW.md) for the latest logical review, model corrections, and remaining evidence gates.
+
+## 논리 리뷰
+
+세그먼트 PER의 적자 제외, 연결 DCF 범위, 순현금 가정 연결과 남은 검증 항목은 [분석 논리 리뷰](research/ANALYSIS_REVIEW.md)에 정리했다.
