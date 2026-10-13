@@ -24,9 +24,9 @@ DCF는 대규모 CAPEX와 운전자본을 확인하고, RIM은 메모리 초과 
 - `research/COMPANY_SPECIFIC_FRAMEWORK.md`: 사업부별 운영·valuation 드라이버
 - `research/VALUATION_VINTAGE_POLICY.md`: 실적/주가/peer 추정 vintage와 갱신 순서
 - `report/FINAL_REPORT.md`: GitHub에서 읽는 최종 보고서
-- [`report/Samsung_Electronics_equity_research_report.pdf`](report/Samsung_Electronics_equity_research_report.pdf): 기존 제출용 snapshot (새 계산식과 최신 PER 제외 상태는 `FINAL_REPORT.md`/Excel 참조)
+- [`report/Samsung_Electronics_equity_research_report.pdf`](report/Samsung_Electronics_equity_research_report.pdf): 최신 `FINAL_REPORT.md`, 방법론 부록, 논리 리뷰를 반영한 재생성본 (2026-10-10 vintage; `python scripts/build_report_pdf.py --project "Samsung Electronics" --vintage 2026-10-10 --output report/Samsung_Electronics_equity_research_report.pdf`로 재현)
 - [`report/METHODOLOGY_APPENDIX.md`](report/METHODOLOGY_APPENDIX.md): peer 선정·vintage·세그먼트 프리미엄의 상세 보완
-- `report/Samsung_Electronics_equity_research_report.docx`: PDF 원본 편집 파일
+- `report/Samsung_Electronics_equity_research_report.docx`: 별도 편집용 원본 파일. 정적 PDF의 최신 결과는 `FINAL_REPORT.md`와 대조할 것
 - `data/processed/2026-10-10_actuals_and_assumptions.csv`: 입력 데이터와 출처
 
 ## 세그먼트별 분석 기준
